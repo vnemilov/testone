@@ -10,7 +10,7 @@ public class Mainframe extends JFrame {
 	public Mainframe() throws HeadlessException {
 		super();
 		setBounds(100, 100, 800, 600);
-		setTitle("TestOne v.0.0.2");
+		setTitle("TestOne v.0.0.3");
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
