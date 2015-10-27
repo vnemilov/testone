@@ -20,6 +20,7 @@ public class Mainframe extends JFrame {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Mainframe mainframe = new Mainframe();
+		mainframe.setTitle("Hello");
 		mainframe.setVisible(true);
 	}
 
