@@ -11,7 +11,7 @@ public class Mainframe extends JFrame {
 
 	public Mainframe() throws HeadlessException {
 		super();
-		setBounds(100, 100, 800, 600);
+		setBounds(100, 100, 800, 700);
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
