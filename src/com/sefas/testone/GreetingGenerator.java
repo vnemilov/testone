@@ -9,7 +9,7 @@ public class GreetingGenerator {
 	}
 
 	public String generate(Person person) {
-		return "Hello my friendz " + person;
+		return "Hello my friendzzz " + person;
 	}
 
 }
