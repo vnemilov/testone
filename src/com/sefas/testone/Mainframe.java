@@ -10,7 +10,6 @@ public class Mainframe extends JFrame {
 	public Mainframe() throws HeadlessException {
 		super();
 		setBounds(100, 100, 800, 600);
-		setTitle("TestOne v.0.0.3");
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -18,9 +17,9 @@ public class Mainframe extends JFrame {
 
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Mainframe mainframe = new Mainframe();
-		mainframe.setTitle("Hello");
+		GreetingGenerator greetingGenerator = new GreetingGenerator();
+		mainframe.setTitle(greetingGenerator.generate());
 		mainframe.setVisible(true);
 	}
 
