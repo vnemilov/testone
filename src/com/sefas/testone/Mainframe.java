@@ -9,8 +9,8 @@ public class Mainframe extends JFrame {
 
 	public Mainframe() throws HeadlessException {
 		super();
-		setBounds(100, 100, 200, 100);
-		setTitle("TestOne v.0.0.1");
+		setBounds(100, 100, 800, 600);
+		setTitle("TestOne v.0.0.2");
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
