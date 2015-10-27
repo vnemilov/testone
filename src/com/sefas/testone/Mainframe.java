@@ -4,6 +4,8 @@ import java.awt.HeadlessException;
 
 import javax.swing.JFrame;
 
+import com.sefas.testone.model.Person;
+
 public class Mainframe extends JFrame {
 
 
@@ -19,7 +21,8 @@ public class Mainframe extends JFrame {
 	public static void main(String[] args) {
 		Mainframe mainframe = new Mainframe();
 		GreetingGenerator greetingGenerator = new GreetingGenerator();
-		mainframe.setTitle(greetingGenerator.generate());
+		mainframe.setTitle(greetingGenerator
+				.generate(new Person("Vasil Emilov")));
 		mainframe.setVisible(true);
 	}
 
