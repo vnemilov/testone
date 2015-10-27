@@ -10,6 +10,7 @@ public class GreetingGenerator {
 
 	public String generate(Person person) {
 
+		int a = 5;
 		return "Hello manaaaa " + person;
 
 	}
