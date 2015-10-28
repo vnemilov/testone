@@ -10,7 +10,7 @@ public class GreetingGenerator {
 
 	public String generate(Person person) {
 		String issue = "This is string for the new branch";
-		int c = 10;
+		String issue2 = "new issue";
 		int a = 5;
 		return "Hello manaaaa " + person;
 
