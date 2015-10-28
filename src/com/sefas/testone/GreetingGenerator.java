@@ -12,6 +12,7 @@ public class GreetingGenerator {
 		String issue = "This is string for the new branch";
 		int c = 10;
 		int a = 1555;
+		String issue2 = "new issue";
 		return "Hello manaaaa " + person;
 
 	}
