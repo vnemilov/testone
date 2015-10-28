@@ -13,6 +13,7 @@ public class GreetingGenerator {
 		int c = 10;
 		int a = 1555;
 		String issue2 = "new issueeeeeeeeee";
+		String asd = "asd";
 		return "Hello manaaaa " + person;
 
 	}
