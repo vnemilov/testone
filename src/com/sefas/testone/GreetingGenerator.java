@@ -9,6 +9,7 @@ public class GreetingGenerator {
 	}
 
 	public String generate(Person person) {
+		String branch1 = "This is branch1";
 		String issue = "This is string for the new branch";
 		int c = 10;
 		int a = 1555;
